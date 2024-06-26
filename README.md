@@ -6,3 +6,5 @@ This repository contains an example of the fibrotic kernel signature (FKS) for t
 - ```biblio/``` contains publications related to the Ferrer model and setting for the conductivity parameters.
 
 - ```FKS_FerrerAtria.py``` computes the FKS for the Ferrer model and generates an XDMF file of the signature evaluated at 50 time steps with a logarthmic progression in time.
+
+![Alt Text](https://github.com/tbanduc/FKS_AtrialModel_Ferrer/blob/main/FKS_example.gif)
