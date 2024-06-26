@@ -203,8 +203,8 @@ def solve_ep(A:petsc4py.PETSc.Mat,
     
     return eig_vecs, eig_vals
 
-def solve_ep_model(model_path:str = "AtriaVoxHexa.xdmf",
-                   ct_path:str = "cellTags.xdmf",
+def solve_ep_model(model_path:str = "xdmf/AtriaVoxHexa.xdmf",
+                   ct_path:str = "xdmf/cellTags.xdmf",
                    out_path:str = None,
                    num:int = 100,
                    material_field:str = "OrganID",
@@ -305,8 +305,8 @@ def kernel_signature(eig_vecs:np.ndarray,
     
     return K, T
 
-def solve_fk_model(model_path:str = "AtriaVoxHexa.xdmf",
-                   ct_path:str = "cellTags.xdmf",
+def solve_fk_model(model_path:str = "xdmf/AtriaVoxHexa.xdmf",
+                   ct_path:str = "xdmf/cellTags.xdmf",
                    out_path:str = None,
                    num:int = 100,
                    material_field:str = "OrganID",
