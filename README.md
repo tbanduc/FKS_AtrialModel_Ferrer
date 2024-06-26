@@ -1,7 +1,7 @@
 # FKS Ferrer Atrial Model
 This repository contains an example of the fibrotic kernel signature (FKS) for the atrial model used in Ferrer, et al. [2015](http://doi.org/10.1371/journal.pone.0141573). 
 
-- ```xdmf/``` contains the data from the 3D atrial model adapted to XDMF format. VTK files were retrieved from https://www.uv.es/commlab/blog-details-3DVENTRICULARMODEL.html. Here ```cellTags.xdmf``` has the individual tags for each cell of the mesh and ```AtrialVoxHexa.xdmf``` contains the organID and Fibers fields.
+- ```xdmf/``` contains the data from the 3D atrial model adapted to XDMF format. VTK files were retrieved from https://www.uv.es/commlab/blog-details-3DVENTRICULARMODEL.html. Here, ```cellTags.xdmf``` has the individual tags for each cell of the mesh and ```AtrialVoxHexa.xdmf``` contains the organID and Fibers fields.
 
 - ```biblio/``` contains two publications related to the Ferrer model and the settings for conductivity parameters.
 
